@@ -1,0 +1,20 @@
+
+esquid:S2259"DA "NullPointerException" could be thrown; "longer" is nullable here.(íøïäúÿÿÿÿ8£×³ß©-
+esquid:S2259"DA "NullPointerException" could be thrown; "longer" is nullable here.(íøïäúÿÿÿÿ8£×³ß©-
+]squid:S1126"AReplace this if-then-else statement by a single return statement.(•©»õ8Ç–Ôã©-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(áïİ¾ıÿÿÿÿ8Ç–Ôã©-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æš—È8£×³ß©-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(’¼8Ç–Ôã©-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(áïİ¾ıÿÿÿÿ8Ç–Ôã©-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡İ«’8Ç–Ôã©-
+^squid:S2259"BA "NullPointerException" could be thrown; "last" is nullable here.(Ò¬Ú8Ç–Ôã©-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øäş‰8Ç–Ôã©-
+asquid:S2259"EA "NullPointerException" could be thrown; "shorter" is nullable here.(ÈöÂØ8£×³ß©-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜ºĞ†8Ç–Ôã©-
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÉøÓüÿÿÿÿ8£×³ß©-
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(–óæÑÿÿÿÿÿ8£×³ß©-
+|squid:S4144"[Update this method so that its implementation is not identical to "reverseList" on line 64.(õ¢û¦úÿÿÿÿ8£×³ß©-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(áïİ¾ıÿÿÿÿ8Ç–Ôã©-
