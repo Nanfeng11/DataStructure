@@ -22,7 +22,7 @@ public class Interview {
 
     private ArrayList<Integer> list;
 
-    //给定一个二叉树，返回它的 前序 遍历
+    //1、给定一个二叉树，返回它的 前序 遍历
     private void preorder(TreeNode root) {
         if (root != null) {
             list.add(root.val);
@@ -37,7 +37,7 @@ public class Interview {
         return list;
     }
 
-    //中序
+    //2、中序
     private void inorder(TreeNode root) {
         if (root != null) {
             inorder(root.left);
@@ -52,7 +52,7 @@ public class Interview {
         return list;
     }
 
-    //后序
+    //3、后序
     private void postorder(TreeNode root) {
         if (root != null) {
             postorder(root.left);
@@ -67,7 +67,7 @@ public class Interview {
         return list;
     }
 
-    //给定两个二叉树，编写一个函数来检验它们是否相同。
+    //4、给定两个二叉树，编写一个函数来检验它们是否相同。
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p==null && q==null){
             return true;
@@ -92,8 +92,7 @@ public class Interview {
                 && isMirror(p.left,q.right)
                 && isMirror(p.right,q.left);
     }
-
-    //给定一个二叉树，检查它是否是镜像对称的
+    //5、给定一个二叉树，检查它是否是镜像对称的
     public boolean isSymmetric(TreeNode root) {
         if(root==null){
             return true;
@@ -101,7 +100,7 @@ public class Interview {
         return isMirror(root.left,root.right);
     }
 
-    //另一棵树的子树
+    //6、另一棵树的子树
     private boolean isSame(TreeNode p,TreeNode q){
         if (p==null && q==null){
             return true;
@@ -129,7 +128,7 @@ public class Interview {
         return find(s,t);
     }
 
-    //给定一个二叉树，判断它是否是高度平衡的二叉树
+    //7、给定一个二叉树，判断它是否是高度平衡的二叉树
     public int height(TreeNode root){
         if (root==null){
             return 0;
@@ -154,4 +153,6 @@ public class Interview {
         }
         return true;
     }
+
+    //
 }

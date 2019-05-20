@@ -151,6 +151,7 @@ public class BinaryTree {
 //            return r;   //返回右子树中找到的节点引用
 //        }
 //        return null;
+        //左子树没找到，去右子树查找
         return find(root.right,v);
     }
 
