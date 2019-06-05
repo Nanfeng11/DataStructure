@@ -105,25 +105,35 @@ public class Interview {
     //实现一个最小栈（空间换时间）
     class MinStack {
 
+        Stack<Integer> min;
+        Stack<Integer> normal;
+
         /** initialize your data structure here. */
         public MinStack() {
-
+            this.min = new Stack<Integer>();
+            this.normal = new Stack<Integer>();
         }
 
         public void push(int x) {
-
+            this.normal.push(x);
+            if (this.min.isEmpty() || this.min.peek()>=x){
+                this.min.push(x);
+            }else {
+                this.min.push(this.min.peek());
+            }
         }
 
         public void pop() {
-
+            this.normal.pop();
+            this.min.pop();
         }
 
         public int top() {
-
+            return this.normal.peek();
         }
 
         public int getMin() {
-
+            return this.min.peek();
         }
     }
 
