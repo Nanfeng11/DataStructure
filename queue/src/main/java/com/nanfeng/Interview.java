@@ -69,39 +69,65 @@ public class Interview {
     //设计循环队列（用数组实现队列）
     class MyCircularQueue {
 
+        private int[] array;
+        private int size;
+        private int front;      //队首元素的下标
+        private int rear;       //下一个可用位置的下标
+
         /** Initialize your data structure here. Set the size of the queue to be k. */
         public MyCircularQueue(int k) {
-
+            this.array = new int[k];
+            this.size = 0;
+            this.front = 0;
+            this.rear = 0;
         }
 
         /** Insert an element into the circular queue. Return true if the operation is successful. */
         public boolean enQueue(int value) {
-
+            if (this.size == this.array.length){
+                return false;
+            }
+            this.array[this.rear] = value;
+            this.rear = (this.rear+1)%this.array.length;
+            this.size++;
+            return true;
         }
 
         /** Delete an element from the circular queue. Return true if the operation is successful. */
         public boolean deQueue() {
-
+            if (this.size==0){
+                return false;
+            }
+            this.front = (this.front+1) % this.array.length;
+            this.size--;
+            return true;
         }
 
         /** Get the front item from the queue. */
         public int Front() {
-
+            if (this.size==0){
+                return -1;
+            }
+            return this.array[this.front];
         }
 
         /** Get the last item from the queue. */
         public int Rear() {
-
+            if (this.size==0){
+                return -1;
+            }
+            int index = (this.rear-1+this.array.length)%this.array.length;
+            return this.array[index];
         }
 
         /** Checks whether the circular queue is empty or not. */
         public boolean isEmpty() {
-
+            return this.size==0;
         }
 
         /** Checks whether the circular queue is full or not. */
         public boolean isFull() {
-
+            return this.size==this.array.length;
         }
     }
 

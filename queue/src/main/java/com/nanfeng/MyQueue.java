@@ -18,7 +18,7 @@ public class MyQueue {
     }
 
     /**
-     * 把数据插入到队尾（尾插）
+     * 入队列，把数据插入到队尾（尾插）
      * @param v
      */
     public void push(int v){
@@ -33,7 +33,7 @@ public class MyQueue {
     }
 
     /**
-     * 出队列(头删)
+     * 出队列(头删)，返回队首元素
      * @return
      */
     public int pop(){
@@ -53,6 +53,7 @@ public class MyQueue {
         return this.head.value;
     }
 
+    //队列元素个数
     public int size(){
         Node cur = this.head;
         int len = 0;
@@ -63,6 +64,7 @@ public class MyQueue {
         return len;
     }
 
+    //队列是否为空
     public boolean isEmpty(){
         return this.head==null;
     }
