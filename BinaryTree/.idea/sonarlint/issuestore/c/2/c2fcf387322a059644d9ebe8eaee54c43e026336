@@ -1,5 +1,5 @@
 
-Lsquid:S1481:")Remove this unused "root" local variable.(Á¼Î…ùÿÿÿÿ8ş§ê§­-
-[squid:S1854:"8Remove this useless assignment to local variable "root".(Á¼Î…ùÿÿÿÿ8ş§ê§­-
 [
 squid:S106;"9Replace this use of System.out or System.err by a logger.(Ÿíª«şÿÿÿÿ8µŞ¨­-
+[squid:S1854:"8Remove this useless assignment to local variable "root".(Á¼Î…ùÿÿÿÿ8ş§ê§­-
+Lsquid:S1481:")Remove this unused "root" local variable.(Á¼Î…ùÿÿÿÿ8ş§ê§­-

@@ -1,5 +1,8 @@
 
-`squid:S1126—"AReplace this if-then-else statement by a single return statement.(óæ×°8®‚ú¬«-
-Gsquid:S1125‘")Remove the literal "false" boolean value.(ˆŸè(8¨ó¬«-
-Hsquid:S1125")Remove the literal "false" boolean value.(¢öïÛ8Ûšñ¬«-
-Ksquid:S1125z"(Remove the literal "true" boolean value.(Ôñ®Èûÿÿÿÿ8Ü»İ¬«-
+wsquid:S2293@"YReplace the type specification in this constructor call with the diamond operator ("<>").(”øêè8Š­Øú®-
+wsquid:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(”øêè8Š­Øú®-
+Ksquid:S1125y"(Remove the literal "true" boolean value.(Ôñ®Èûÿÿÿÿ8Ü»İ¬«-
+Hsquid:S1125")Remove the literal "false" boolean value.(¢öïÛ8Ûšñ¬«-
+`squid:S1126–"AReplace this if-then-else statement by a single return statement.(óæ×°8®‚ú¬«-
+Gsquid:S1125")Remove the literal "false" boolean value.(ˆŸè(8¨ó¬«-
+wsquid:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(”øêè8Š­Øú®-

@@ -33,7 +33,7 @@ public class CreateBinaryTreeQ {
     //1、根据前序遍历创建二叉树
     private static CreateTreeReturnValue createTree(char[] preOrder){
 
-        //ABC#D####E##(E之后就是空数组，相当于创建一棵空树)
+        //ABC#D###E##(E之后就是空数组，相当于创建一棵空树)
         if (preOrder.length==0){
             return new CreateTreeReturnValue(null,0);
         }

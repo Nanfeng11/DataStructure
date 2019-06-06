@@ -1,20 +1,20 @@
 
-jsquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(»þ³À8îË­«-
-\
-squid:S106¶"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ÕŠ¿©«-
-[
-squid:S106 "9Replace this use of System.out or System.err by a logger.(ÆÆƒÆüÿÿÿÿ8©ü¤¨«-
-\
-squid:S106º"9Replace this use of System.out or System.err by a logger.(„×êþøÿÿÿÿ8¶ž¼««-
-\
-squid:S106»"9Replace this use of System.out or System.err by a logger.(É÷±üÿÿÿÿÿ8¶ž¼««-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÆƒÆüÿÿÿÿ8†ï§¨«-
-nsquid:CommentedOutCodeLinex"<This block of commented-out lines of code should be removed.(›“¹°þÿÿÿÿ8µù»««-
-\
-squid:S106¸"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ÕŠ¿©«-
 [
 squid:S106*"9Replace this use of System.out or System.err by a logger.(ÆÆƒÆüÿÿÿÿ8çÅŽ¨«-
 \
-squid:S106´"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ÕŠ¿©«-
+squid:S106»"9Replace this use of System.out or System.err by a logger.(É÷±üÿÿÿÿÿ8¶ž¼««-
 osquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8îË­«-
+nsquid:CommentedOutCodeLinex"<This block of commented-out lines of code should be removed.(›“¹°þÿÿÿÿ8µù»««-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÆƒÆüÿÿÿÿ8†ï§¨«-
+\
+squid:S106¸"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ÕŠ¿©«-
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ÆÆƒÆüÿÿÿÿ8©ü¤¨«-
+jsquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(»þ³À8îË­«-
+\
+squid:S106´"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ÕŠ¿©«-
+\
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ÕŠ¿©«-
+\
+squid:S106º"9Replace this use of System.out or System.err by a logger.(„×êþøÿÿÿÿ8¶ž¼««-
