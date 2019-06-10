@@ -29,8 +29,8 @@
       <file leaf-file-name="Interview.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nanfeng/Interview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="1585">
+              <caret line="150" column="5" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="150" selection-end-column="5" />
               <folding>
                 <element signature="e#299#300#0" expanded="true" />
                 <element signature="e#361#362#0" expanded="true" />
@@ -40,6 +40,8 @@
                 <element signature="e#1623#1624#0" expanded="true" />
                 <element signature="e#3394#3395#0" expanded="true" />
                 <element signature="e#3437#3438#0" expanded="true" />
+                <element signature="e#3700#3701#0" expanded="true" />
+                <element signature="e#3743#3744#0" expanded="true" />
                 <element signature="e#3537#3538#0" expanded="true" />
                 <element signature="e#3596#3597#0" expanded="true" />
               </folding>
@@ -79,7 +81,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -93,7 +95,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BinaryTree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -166,14 +168,15 @@
       <workItem from="1557405083928" duration="4801000" />
       <workItem from="1559623272580" duration="5247000" />
       <workItem from="1559720461365" duration="558000" />
+      <workItem from="1560158830404" duration="3275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10606000" />
+    <option name="totallyTimeSpent" value="13881000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -215,6 +218,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nanfeng/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanfeng/Interview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2318">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#3394#3395#0" expanded="true" />
+            <element signature="e#3437#3438#0" expanded="true" />
+            <element signature="e#3700#3701#0" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3537#3538#0" expanded="true" />
+            <element signature="e#3596#3597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanfeng/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding>
@@ -237,6 +272,8 @@
             <element signature="e#1623#1624#0" expanded="true" />
             <element signature="e#3394#3395#0" expanded="true" />
             <element signature="e#3437#3438#0" expanded="true" />
+            <element signature="e#3700#3701#0" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
             <element signature="e#3537#3538#0" expanded="true" />
             <element signature="e#3596#3597#0" expanded="true" />
           </folding>
@@ -267,6 +304,8 @@
             <element signature="e#1623#1624#0" expanded="true" />
             <element signature="e#3394#3395#0" expanded="true" />
             <element signature="e#3437#3438#0" expanded="true" />
+            <element signature="e#3700#3701#0" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
             <element signature="e#3537#3538#0" expanded="true" />
             <element signature="e#3596#3597#0" expanded="true" />
           </folding>
@@ -286,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nanfeng/Interview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="1585">
+          <caret line="150" column="5" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="150" selection-end-column="5" />
           <folding>
             <element signature="e#299#300#0" expanded="true" />
             <element signature="e#361#362#0" expanded="true" />
@@ -297,6 +336,8 @@
             <element signature="e#1623#1624#0" expanded="true" />
             <element signature="e#3394#3395#0" expanded="true" />
             <element signature="e#3437#3438#0" expanded="true" />
+            <element signature="e#3700#3701#0" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
             <element signature="e#3537#3538#0" expanded="true" />
             <element signature="e#3596#3597#0" expanded="true" />
           </folding>

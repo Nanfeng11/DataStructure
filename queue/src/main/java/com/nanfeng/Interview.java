@@ -120,14 +120,33 @@ public class Interview {
             return this.array[index];
         }
 
+        public int Rear2(){
+            if (this.size==0){
+                return -1;
+            }
+            int index = this.rear==0?this.array.length-1:this.rear-1;
+            return this.array[index];
+        }
+
         /** Checks whether the circular queue is empty or not. */
         public boolean isEmpty() {
             return this.size==0;
         }
 
+        public boolean isEmpty2() {
+            return this.rear == this.front;
+        }
+
         /** Checks whether the circular queue is full or not. */
         public boolean isFull() {
             return this.size==this.array.length;
+        }
+
+        public boolean isFull2(){
+            if ((this.rear+1)%this.array.length == this.front){
+                return true;
+            }
+            return false;
         }
     }
 
